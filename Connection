@@ -1,0 +1,12 @@
+
+public class Connection{
+    public Node sender;
+    public Node receiver;
+    public double delay;
+    
+    Connection(Node send, Node rec, double del){
+        sender = send;
+        receiver = rec;
+        delay = del;
+    }
+}
